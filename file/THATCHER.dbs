@@ -16,10 +16,10 @@ maps
 		{
 		}
 		overrideceiltexture = false;
-		viewpositionx = 4259.798f;
+		viewpositionx = 2335.693f;
 		defaulttoptexture = "BROWNGRN";
 		overrideceilheight = false;
-		viewpositiony = -6843.823f;
+		viewpositiony = -6528.765f;
 		overridebrightness = false;
 		overridefloortexture = false;
 		
@@ -44,6 +44,6 @@ maps
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 1.295546f;
+		viewscale = 0.8506934f;
 	}
 }
