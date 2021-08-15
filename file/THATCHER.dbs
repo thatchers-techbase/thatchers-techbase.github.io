@@ -58,10 +58,10 @@ maps
 		{
 		}
 		overrideceiltexture = false;
-		viewpositionx = -1180.475f;
+		viewpositionx = -2873.46f;
 		defaulttoptexture = "METAL5";
 		overrideceilheight = false;
-		viewpositiony = -8017.214f;
+		viewpositiony = 1310.392f;
 		overridebrightness = false;
 		overridefloortexture = false;
 		
@@ -86,6 +86,6 @@ maps
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 4.399631f;
+		viewscale = 0.1117402f;
 	}
 }
