@@ -16,10 +16,10 @@ maps
 		{
 		}
 		overrideceiltexture = false;
-		viewpositionx = 3250.006f;
+		viewpositionx = 1240.198f;
 		defaulttoptexture = "BROWNGRN";
 		overrideceilheight = false;
-		viewpositiony = -5236.003f;
+		viewpositiony = 4399.153f;
 		overridebrightness = false;
 		overridefloortexture = false;
 		
@@ -44,7 +44,7 @@ maps
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 19.81948f;
+		viewscale = 2.429658f;
 	}
 	
 	MAP01
@@ -58,10 +58,10 @@ maps
 		{
 		}
 		overrideceiltexture = false;
-		viewpositionx = -2873.46f;
+		viewpositionx = 62.55267f;
 		defaulttoptexture = "METAL5";
 		overrideceilheight = false;
-		viewpositiony = 1310.392f;
+		viewpositiony = -1847.256f;
 		overridebrightness = false;
 		overridefloortexture = false;
 		
@@ -86,6 +86,48 @@ maps
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 0.1117402f;
+		viewscale = 1.184947f;
+	}
+	
+	MAP03
+	{
+		defaultceiltexture = "CEIL5_1";
+		overridefloorheight = false;
+		customfloorheight = 0;
+		uselongtexturenames = false;
+		
+		resources
+		{
+		}
+		overrideceiltexture = false;
+		viewpositionx = 2100.092f;
+		defaulttoptexture = "BLAKWAL1";
+		overrideceilheight = false;
+		viewpositiony = 4338.135f;
+		overridebrightness = false;
+		overridefloortexture = false;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 16;
+			background = "";
+			backoffsety = 0;
+		}
+		overridebottomtexture = false;
+		defaultbottomtexture = "BLAKWAL1";
+		defaultfloortexture = "CEIL5_1";
+		defaultwalltexture = "BLAKWAL1";
+		overridetoptexture = false;
+		customceilheight = 128;
+		overridemiddletexture = false;
+		custombrightness = 196;
+		viewscale = 1.208133f;
 	}
 }
