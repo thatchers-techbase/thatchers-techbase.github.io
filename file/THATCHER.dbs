@@ -16,10 +16,10 @@ maps
 		{
 		}
 		overrideceiltexture = false;
-		viewpositionx = -336.5868f;
+		viewpositionx = 2103.423f;
 		defaulttoptexture = "BROWNGRN";
 		overrideceilheight = false;
-		viewpositiony = 650.8152f;
+		viewpositiony = 1232.924f;
 		overridebrightness = false;
 		overridefloortexture = false;
 		
@@ -44,7 +44,7 @@ maps
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 2.429656f;
+		viewscale = 1.437666f;
 	}
 	
 	MAP01
