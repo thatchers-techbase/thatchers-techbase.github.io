@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'goth';
+	src: url('goth.ttf') format('truetype');
+}
+
 body {
 	background: url(../images/background.png);
 	margin: 0px 0px 0px 0px;
@@ -15,7 +20,7 @@ body {
 	width: 1200px;
 	margin: 0 auto;
 	min-height: 2700px;
-	font-family: 'Courier';
+	font-family: 'goth', Fallback, 'Courier';
 	font-size: 16pt;
 	color: white;
 }
