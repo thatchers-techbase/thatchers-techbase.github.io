@@ -100,10 +100,10 @@ maps
 		{
 		}
 		overrideceiltexture = false;
-		viewpositionx = 18.32956f;
+		viewpositionx = 548.8174f;
 		defaulttoptexture = "BLAKWAL1";
 		overrideceilheight = false;
-		viewpositiony = -1730.318f;
+		viewpositiony = 2625.02f;
 		overridebrightness = false;
 		overridefloortexture = false;
 		
@@ -128,6 +128,6 @@ maps
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 4.485701f;
+		viewscale = 0.1925353f;
 	}
 }
