@@ -16,10 +16,10 @@ maps
 		{
 		}
 		overrideceiltexture = false;
-		viewpositionx = 1746.676f;
+		viewpositionx = 2472.916f;
 		defaulttoptexture = "BROWNGRN";
 		overrideceilheight = false;
-		viewpositiony = 4272.761f;
+		viewpositiony = 5112.398f;
 		overridebrightness = false;
 		overridefloortexture = false;
 		
@@ -32,7 +32,7 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 32;
+			gridsize = 4;
 			background = "";
 			backoffsety = 0;
 		}
@@ -44,7 +44,7 @@ maps
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 0.5896895f;
+		viewscale = 0.5896885f;
 	}
 	
 	MAP01
@@ -58,10 +58,10 @@ maps
 		{
 		}
 		overrideceiltexture = false;
-		viewpositionx = -1125.178f;
+		viewpositionx = -82.97139f;
 		defaulttoptexture = "METAL5";
 		overrideceilheight = false;
-		viewpositiony = -10312.79f;
+		viewpositiony = 351.2724f;
 		overridebrightness = false;
 		overridefloortexture = false;
 		
@@ -74,7 +74,7 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 32;
+			gridsize = 4;
 			background = "";
 			backoffsety = 0;
 		}
@@ -86,6 +86,90 @@ maps
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 0.7011539f;
+		viewscale = 3.384334f;
+	}
+	
+	MAP04
+	{
+		defaultceiltexture = "CEIL4_1";
+		overridefloorheight = false;
+		customfloorheight = 0;
+		uselongtexturenames = false;
+		
+		resources
+		{
+		}
+		overrideceiltexture = false;
+		viewpositionx = 443.5475f;
+		defaulttoptexture = "ZZWOLF12";
+		overrideceilheight = false;
+		viewpositiony = -299.7572f;
+		overridebrightness = false;
+		overridefloortexture = false;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 4;
+			background = "";
+			backoffsety = 0;
+		}
+		overridebottomtexture = false;
+		defaultbottomtexture = "ZZWOLF12";
+		defaultfloortexture = "FLOOR0_3";
+		defaultwalltexture = "ZZWOLF12";
+		overridetoptexture = false;
+		customceilheight = 128;
+		overridemiddletexture = false;
+		custombrightness = 196;
+		viewscale = 0.2285075f;
+	}
+	
+	MAP03
+	{
+		defaultceiltexture = "CEIL5_1";
+		overridefloorheight = false;
+		customfloorheight = 0;
+		uselongtexturenames = false;
+		
+		resources
+		{
+		}
+		overrideceiltexture = false;
+		viewpositionx = -144.1735f;
+		defaulttoptexture = "BLAKWAL1";
+		overrideceilheight = false;
+		viewpositiony = 4067.12f;
+		overridebrightness = false;
+		overridefloortexture = false;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 4;
+			background = "";
+			backoffsety = 0;
+		}
+		overridebottomtexture = false;
+		defaultbottomtexture = "BLAKWAL1";
+		defaultfloortexture = "CEIL5_1";
+		defaultwalltexture = "BLAKWAL1";
+		overridetoptexture = false;
+		customceilheight = 128;
+		overridemiddletexture = false;
+		custombrightness = 196;
+		viewscale = 2.041747f;
 	}
 }
