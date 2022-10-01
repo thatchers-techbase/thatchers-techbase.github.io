@@ -3,6 +3,11 @@
 	src: url('goth.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'eternal';
+	src: url('eternal.ttf') format('truetype');
+}
+
 body {
 	background: url(../images/background.png);
 	margin: 0px 0px 0px 0px;
@@ -37,13 +42,17 @@ hr {
 	
 a {
 	color: red;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 .titlebar {
 	background:#000000;
 	padding:0px 4px 0px 4px;
 	line-height: 20px;
+}
+
+.menu {
+	font-family: 'eternal', Fallback, 'Courier';
 }
 
 .subtitlebar p{
@@ -89,7 +98,7 @@ h4 {
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
 	border:1px solid #0C0C0C;
 	padding:8px;
-	line-height:140%;	
+	line-height:120%;	
 }
 
 .abitlessopaque {
@@ -108,6 +117,7 @@ p {
 	background: rgba(6, 6, 6, 1);
 	border: 0px;
 	padding: 8px;
+	text-decoration: none;
 }
 
 .navbarcurrent {
@@ -116,7 +126,7 @@ p {
 	background: rgba(24, 24, 24, 1);
 	border: 0px;
 	padding: 8px;
-
+	text-decoration: none;
 }
 
 .navbar:hover {
