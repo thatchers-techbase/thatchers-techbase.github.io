@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+        color: #ccc;
+        background-color: black;
+      }
+
+      button {
+        font-family: "Courier New", Courier, monospace;
+        color: #ccc;
+      }
+
+      /* Style the tab */
+      .tab {
+        width: 50%;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .tab {
+          width: 80%;
+        }
+      }
+
+      table {
+        min-width: 40%;
+      }
+
+      td {
+        border: 1px solid #ccc;
+        padding: 2%;
+      }
+
+      /* Style the buttons inside the tab */
+      .tab button {
+        background-color: inherit;
+        outline: none;
+        cursor: pointer;
+        padding: 5px;
+        transition: 0.3s;
+      }
+
+      /* Change background color of buttons on hover */
+      .tab button:hover {
+        background-color: #ddd;
+      }
+
+      /* Create an active/current tablink class */
+      .tab button.active {
+        background-color: #ccc;
+        color: black;
+      }
+
+      /* Style the tab content */
+      .tabcontent {
+        display: none;
+        border-top: none;
+        font-size: 10pt;
+        margin-right: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <b>letshugbro, leyfir að knúsa bróðir</b><br />
+    <b>Human Scribe empty corpse</b><br />
+    "Backloggd, The Video Game Collection Tracker"<br /><br />
+
+    <div id="sheet-container">
+      <div class="tab">
+        <button class="tablinks active" onclick="openTab(event, 'Overview')">
+          Overview
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Items')">
+          Items
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Health')">
+          Health
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Skills')">
+          Skills
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Rooms')">
+          Rooms
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Labor')">
+          Labor
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Relations')">
+          Relations
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Groups')">
+          Groups
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Military')">
+          Military
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Thoughts')">
+          Thoughts
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Personality')">
+          Personality
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'History')">
+          History
+        </button>
+
+        <br /><br />
+      </div>
+
+      <div id="Overview" class="tabcontent" style="display: block">
+        <table>
+          <tr>
+            <td>32 years old</td>
+            <td>
+              Weak<br />
+              Disdains law<br />
+              Poor spatial sense<br />
+              Gamer<br />
+              Overvalues eloquence
+            </td>
+          </tr>
+          <tr>
+            <td>Backloggd Reviewers Guild</td>
+            <td>No official position</td>
+          </tr>
+          <tr>
+            <td>Upper Head damaged</td>
+            <td>
+              Legendary Poster<br />
+              Skilled Fortnite Player<br />
+              Novice Developer
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              "I posted a new review. It feels good to create something!"<br /><br />
+              He felt <b>overwhelmed</b> playing Dwarf Fortress.<br />
+              He mistakenly felt <b>intelligent</b> while setting up work
+              orders.<br />
+              His bottom right tooth is sore.<br />
+              He felt unexpected <b>sadness</b> while burying a child.<br />
+              He overcame a strange mood.<br />
+              Overall, he is somewhat focused with satisfied needs.<br />
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="Items" class="tabcontent">
+        <table>
+          <tr>
+            <td>
+              👕 (wool jumper)<br />
+              <b>Upper body</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              👕 ≡sweat-drenched polyester shirt≡<br />
+              <b>Upper body</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              👖 (moth-bitten cotton sweatpants)<br />
+              <b>Lower body</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              🧦 (dyed black cotton sock)<br />
+              <b>Left foot</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              🧦 (cotton sock)<br />
+              <b>Right foot</b>
+            </td>
+          </tr>
+          <tr>
+            <td>📱 ⚞iron phone⚞<br /></td>
+          </tr>
+          <tr>
+            <td>☕ (clay mug)<br /></td>
+          </tr>
+          <tr>
+            <td>🔥 (graphite fire lighter)<br /></td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="Health" class="tabcontent">
+        A medium-sized creature fond of drink, leisure and art.<br /><br />
+        He is agile, but he is susceptible to injury and ill-health.<br /><br />
+        He has a wound in his <b>Lower Head</b>.<br /><br />
+        His short hair is messy. His very short beard is unbraided. His slightly
+        tired brown eyes are round. He has an annoying voice. He is average in
+        size. His ears are big. His skin is pale white.
+      </div>
+
+      <div id="Skills" class="tabcontent">
+        <table>
+          <tr>
+            <td>Legendary Poster</td>
+          </tr>
+          <tr>
+            <td>Proficient Cheese Toastie Maker</td>
+          </tr>
+          <tr>
+            <td>Skilled Fortnite Player</td>
+          </tr>
+          <tr>
+            <td>Competent Writer</td>
+          </tr>
+          <tr>
+            <td>Competent Craftsdwarf</td>
+          </tr>
+          <tr>
+            <td>Adequate Onioncutter</td>
+          </tr>
+          <tr>
+            <td>Novice Developer</td>
+          </tr>
+          <tr>
+            <td>Dabbling Artist</td>
+          </tr>
+          <tr>
+            <td>Dabbling Dwarf Fortress Player</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="Rooms" class="tabcontent">
+        <table>
+          <tr>
+            <td>🪑 Decent Study</td>
+          </tr>
+          <tr>
+            <td>🛏️ Fine Quarters</td>
+          </tr>
+          <tr>
+            <td>🍽️ Overlapping Dining Room</td>
+          </tr>
+          <tr>
+            <td>💀 No Tomb</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="Thoughts" class="tabcontent">
+        "Spaghetti bolognese for dinner tonight!"<br /><br />
+        He feels <b>euphoric</b> due to inebriation.<br />
+        He felt <b>overwhelmed</b> playing Dwarf Fortress.<br />
+        He mistakenly felt <b>intelligent</b> setting up a work order for the
+        first time.<br />
+        His bottom right tooth was painful.<br />
+        He didn't feel anything after receiving bad news.<br />
+        He was <b>uncertain</b> in dealing with a raven's attack.<br />
+        He felt unexpected <b>sadness</b> while burying a child.<br />
+        He felt <b>restless</b> after being unable to practice review-writing
+        for so long.<br /> He overcame a strange mood after consuming a
+        <b>flowering plant</b>.<br />
+        He was <b>annoyed</b> when caught in the rain.<br />
+        He felt <b>fondness</b> talking with a friend.<br />
+        He felt <b>fondness</b> talking with a friend.<br />
+        He felt <b>fondness</b> talking with a friend.<br />
+        He felt <b>fondness</b> talking with a friend.<br />
+        He felt <b>fondness</b> talking with a friend.<br />
+        He felt <b>fondness</b> talking with a friend.<br />
+        He was <b>annoyed</b> when a dwarf in Dwarf Fortress was
+        <b>annoyed</b> about being caught in the rain.<br />
+        He became <b>calm</b> after standing near <b>a loved one</b>.<br />
+        He felt <b>satisfied</b> at work. He felt satisfied upon improving Excel
+        formulas.<br />
+        He felt <b>pride</b> in completion of a review.<br />
+        He was <b>worried</b> when considering the thoughts of others.<br />
+        He felt <b>restless</b> dwelling upon watching the news.<br />
+        He felt <b>refreshed</b> after sleeping in a bedroom.<br />
+        Overall, he is somewhat focused with satisfied needs.<br />
+      </div>
+
+      <div id="Military" class="tabcontent">No squad assigned</div>
+
+      <div id="Personality" class="tabcontent">
+        He has a great Backloggd account, adequate empathy and creativity, but
+        has poor spatial sense and willpower. <br /><br />He avoids exciting and
+        adventurous situations. He has high interest in joking around. He tends
+        to be a little tight with resources. He has a tendency to be hungry. He
+        is comfortable around dwarves who appear unusual and live differently
+        from himself. He has a tendency to be swayed by the emotions of others.
+        He is a friendly individual. He likes to keep things practical. He likes
+        to delve deeply into the abstract. He can form emotional bonds. He is
+        grateful when others help him out and tries to return favors. He is
+        capable of developing positive sentiments.<br /><br />
+        He rarely speaks when he is angry. He often bites his nails when he's
+        trying to concentrate on something. He often touches his neck when he is
+        being observed.<br /><br />
+        He sometimes needs alcohol to get through the day. He does not like
+        working outdoors. He likes working indoors. He sometimes grumbles only
+        mildly at the inclement weather.
+      </div>
+
+      <div id="History" class="tabcontent">
+        He is thirty-two years old born on the 8th of Hematite in the year 190.
+        His first toe right foot was smashed open upon contact with a door. His
+        fifth toe left foot was broken upon contact with a tree. His second
+        right finger left hand was pierced with a pencil. His right arm was
+        fractured. His right hand is dented. His very long hair was cut. His
+        short medium beard was cut. His short hair was neatly combed. His hair
+        is clean. His nose bridge is concave. His lips are very thin. His
+        hair is brown. His skin is white. His upper body bears the marks of
+        numerous old wounds, the chief among them a straight scar on the lower
+        head due to contact with a floor. His right upper arm bears the marks of
+        old wounds including a very short straight scar inflicted by a cat. His
+        left upper arm bears the marks of old wounds including a very short
+        curving scar inflicted by a cat. His left lower arm bears the marks of
+        old wounds including a short straight scar inflicted by a cat. His right
+        hand old wounds including a straight scar inflicted by a cat. His left
+        hand bears a scar inflicted by a cat. His right upper leg bears a tiny
+        curving scar inflicted by a cat. His left upper of old wounds including
+        q very long straight scar inflicted by a cat. His eyes are brown. He
+        believes he is mighty, sometimes sick and sometimes agile. Likes olives.
+        He holds sheepskin parchment bearing qualifications from a guild. He
+        owns light brown upper body garments and five white doors. When possible
+        he prefers to consume wholegrain pasta, cow meat and fine fish meals. He
+        absolutely detests cave spiders. He has a meager ability with social
+        relationships. A meager kinesthetic sense, and bad intuition. Adequate
+        analytical abilities and quite poor focus. Like others in his culture he
+        holds video games to be of the highest ideals and celebrates talented
+        artisans and their masterworks. He does not have a great deal of respect
+        for those who are overly proud. He greatly prizes loyalty and values
+        films greatly. He sees friendship one of the finer things in life. He
+        believes that honesty is a high ideal. He greatly respects bards and
+        their works and really respects those that take the time to Master a
+        skill. He deeply respects those that work hard at their labors. Respects
+        fair-dealing and fair-play values cooperation and values martial
+        prowess. He values leisure time and respects commerce and finds nature
+        somewhat disturbing. In the year 221 he finished a craftspiece. He personally hates those who wield power over
+        others. He finds the pursuit of knowledge to be a waste of effort and
+        sees merrymaking as a virtue. He dreams of crafting a masterwork
+        someday. He is prone to strong feelings of lust. He is very curious,
+        sometimes to his detriment. He relies on the advice of others during
+        decision-making. He is unnecessarily pleased by his own looks and
+        accomplishments. He has a calm demeanor. He prefers that everyone live
+        as harmoniously as possible. He tries to keep his things orderly after
+        retching on a miasma in 250% sickness. He is not brave in the face of
+        imminent danger. He is currently more fearless than he was. He can
+        sometimes act without deliberation.
+      </div>
+
+      <div id="Labor" class="tabcontent">
+        ⛏️ Will do available tasks anywhere<br /><br />
+        No dedicated workshop assignments<br /><br />
+
+        <table>
+          <tr>
+            <td>Programming</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Shopping</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Dishwashing</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Laundry</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Hauling</td>
+            <td>✅</td>
+          </tr>
+          <tr>
+            <td>Mining</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Fishing</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Planting</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Woodcutting</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Hunting</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gathering</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Stonecutting</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div id="Groups" class="tabcontent">
+      <table>
+        <tr>
+          <td>Backloggd<br /><b>Poster</b></td>
+          <td>Blog</td>
+        </tr>
+        <tr>
+          <td>Letterboxd<br /><b>Poster</b></td>
+          <td>Blog</td>
+        </tr>
+        <tr>
+          <td>Twitter<br /><b>Shitposter</b></td>
+          <td>Blog</td>
+        </tr>
+        <tr>
+          <td>British Computer Society<br /><b>Member</b></td>
+          <td>Guild</td>
+        </tr>
+        <tr>
+          <td>Scottish Greens<br /><b>Member</b></td>
+          <td>Political organisation</td>
+        </tr>
+        <tr>
+          <td>The Catholic Church<br /><b>Former member</b></td>
+          <td>Religion</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="Relations" class="tabcontent">
+      <table>
+        <tr>
+          <td>Eiichiro Oda<br /><b>Deity</b></td>
+        </tr>
+        <tr>
+          <td>Baron Prog<br /><b>Ruler</b></td>
+        </tr>
+        <tr>
+          <td>Kötturinn Pepitús<br /><b>Pet</b></td>
+        </tr>
+        <tr>
+          <td>Urist McUrist, the Urist of Urist<br /><b>Friend</b></td>
+        </tr>
+      </table>
+    </div>
+
+    <script>
+      function openTab(evt, tab) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tab).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
+  </body>
+</html>
